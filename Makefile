@@ -1,5 +1,5 @@
 PKG_NAME := pypi-pymdown_extensions
-URL = https://files.pythonhosted.org/packages/e8/d8/5497fc0f55f87db787e1f61b10390b18247ace5ccd1bf90fef82a6eb628a/pymdown-extensions-9.2.tar.gz
+URL = https://files.pythonhosted.org/packages/d2/1f/b1b7f5b03b3c42d9a68eb843ff22047aa87dbe8a8b8991c4b1574b29c9be/pymdown-extensions-9.3.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
