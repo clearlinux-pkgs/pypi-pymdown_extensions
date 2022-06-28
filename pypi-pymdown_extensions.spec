@@ -4,7 +4,7 @@
 #
 Name     : pypi-pymdown_extensions
 Version  : 9.5
-Release  : 5
+Release  : 6
 URL      : https://files.pythonhosted.org/packages/9e/01/96c674dd509ca427487487fdd1b0ce4a800ae716c0787411a9ac3452f67a/pymdown_extensions-9.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9e/01/96c674dd509ca427487487fdd1b0ce4a800ae716c0787411a9ac3452f67a/pymdown_extensions-9.5.tar.gz
 Summary  : Extension pack for Python Markdown.
@@ -70,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1654538251
+export SOURCE_DATE_EPOCH=1656383647
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -108,7 +108,7 @@ export FCFLAGS="$FCFLAGS -m64 -march=x86-64-v3 "
 export LDFLAGS="$LDFLAGS -m64 -march=x86-64-v3 "
 pip install --root=%{buildroot}-v3 --no-deps --ignore-installed dist/*.whl
 popd
-/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot}/usr/share/clear/optimized-elf/ %{buildroot}/usr/share/clear/filemap/filemap-%{name}
+/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot} %{buildroot}/usr/share/clear/filemap/filemap-%{name}
 
 %files
 %defattr(-,root,root,-)
