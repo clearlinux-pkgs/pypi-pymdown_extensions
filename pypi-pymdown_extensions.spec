@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-pymdown_extensions
-Version  : 10.2
-Release  : 25
-URL      : https://files.pythonhosted.org/packages/73/eb/70037b7af6f8190baee340743ea6655fd6bedabd8d4ab14eafcb29e5d7d1/pymdown_extensions-10.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/73/eb/70037b7af6f8190baee340743ea6655fd6bedabd8d4ab14eafcb29e5d7d1/pymdown_extensions-10.2.tar.gz
+Version  : 10.2.1
+Release  : 26
+URL      : https://files.pythonhosted.org/packages/90/41/7d67a7b6974fe3ffa03c817c9772f593535a85a72f4ba80af47168615098/pymdown_extensions-10.2.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/90/41/7d67a7b6974fe3ffa03c817c9772f593535a85a72f4ba80af47168615098/pymdown_extensions-10.2.1.tar.gz
 Summary  : Extension pack for Python Markdown.
 Group    : Development/Tools
 License  : MIT
@@ -60,10 +60,10 @@ python3 components for the pypi-pymdown_extensions package.
 
 
 %prep
-%setup -q -n pymdown_extensions-10.2
-cd %{_builddir}/pymdown_extensions-10.2
+%setup -q -n pymdown_extensions-10.2.1
+cd %{_builddir}/pymdown_extensions-10.2.1
 pushd ..
-cp -a pymdown_extensions-10.2 buildavx2
+cp -a pymdown_extensions-10.2.1 buildavx2
 popd
 
 %build
@@ -71,7 +71,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1693253296
+export SOURCE_DATE_EPOCH=1693442065
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
