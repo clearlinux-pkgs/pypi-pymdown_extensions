@@ -7,7 +7,7 @@
 #
 Name     : pypi-pymdown_extensions
 Version  : 10.14.3
-Release  : 51
+Release  : 52
 URL      : https://files.pythonhosted.org/packages/7c/44/e6de2fdc880ad0ec7547ca2e087212be815efbc9a425a8d5ba9ede602cbb/pymdown_extensions-10.14.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/7c/44/e6de2fdc880ad0ec7547ca2e087212be815efbc9a425a8d5ba9ede602cbb/pymdown_extensions-10.14.3.tar.gz
 Summary  : Extension pack for Python Markdown.
